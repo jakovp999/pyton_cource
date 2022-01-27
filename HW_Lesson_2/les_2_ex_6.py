@@ -29,7 +29,6 @@ i = 0
 len_tovars = len(tovars)
 
 for i in range(0,len_tovars):
-    marks_temp = tovars[i][1]
     print(f' 1й шаг {tovars[i][0]}, {tovars[i][1]}')
     for key, value in tovars[i][1].items():
         print(f'2й шаг key = {key}, value = {value}')
