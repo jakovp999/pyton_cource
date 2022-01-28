@@ -29,11 +29,10 @@ def my_func(*args):
         print("сумма общая: ", sum_all)
     return sum_all
 
-i = True
-arg = []
+
 num_list = []
 while True:
-    args = (input(f'Введите ряд   '))
+    args = (input(f'Введите ряд целых чисел через пробел. При вводе "!" программа заканчивает свою работу  '))
     result = my_func(args)
     print("!!!!Oкончательный результат :", result)
     if '!' in args:
