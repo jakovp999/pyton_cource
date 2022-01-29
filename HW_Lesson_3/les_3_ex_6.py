@@ -11,6 +11,3 @@ print(one_word)
 vvod_list = input('Введите несколько слов разделенными пробелами латинскими маленькими буквами: ')
 one_word, some_word = int_func(vvod_list)
 print(some_word)
-
-
-
