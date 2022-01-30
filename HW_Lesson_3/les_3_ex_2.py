@@ -8,3 +8,4 @@ n = input('Ведите имя')
 dict_user_1 = my_dict(имя = n )
 print(dict_user_1)
 
+
