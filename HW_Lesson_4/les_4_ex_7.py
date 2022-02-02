@@ -1,6 +1,16 @@
-def fact():
+# Функция n факториал
+def fac(n):
+    itog = 1
+    if n == 1:
+        yield 1
 
-        yield el
+    for i in range(1, n + 1):
+        itog *= i
+        yield itog
 
 
- for el in fact(n):
+print(fac(4))
+n = 4
+
+for el in fac(n):
+    print(el)
