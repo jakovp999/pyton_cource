@@ -1,6 +1,5 @@
 my_file = open("zp.txt", "r", encoding='utf - 8')
 data = my_file.read()
-
 content = my_file.readlines()
 
 print('Cодержимое файла:', content)
@@ -30,6 +29,7 @@ print(c)
 c = list(map(str, c))  # Преобразование из веществ в str
 
 for i in c:
+    my_file = open("zp.txt", "r", encoding='utf - 8')
     for lines in my_file:
         if i in lines:
             print('ЗП меньше 20000:', lines, end='')
