@@ -15,7 +15,7 @@ for line in file_lines:
                 num += i
                 print('Поиск цифр', num)
             else:
-                print('Выход из условия поиска цифр', i)
+                print('Обнаружена не цифра', i)
                 break
         hours += int(num)
         print('Часы сумма', hours)
