@@ -10,6 +10,7 @@ time_min = int(time) % 3600 // 60
 time_sec = int(time) % 3600 % 60
 # print(time_sec)
 
+
 # Проверка
 
 # time_ver = time_hour * 3600 + time_min * 60 + time_sec

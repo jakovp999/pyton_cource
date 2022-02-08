@@ -7,4 +7,3 @@ number_nnn = number_n * 3
 result = int(number_nnn) + int(number_nn) + int(number_n)
 
 print(result)
-
