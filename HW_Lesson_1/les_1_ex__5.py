@@ -14,5 +14,6 @@ else:
 
 rentabilnost = result / viruchka
 print(f'Рентабельность составляет {rentabilnost}')
+
 prib_for_one = result / kolv_sotr
 print(f'Прибыль в расчете на одного сотрудника {prib_for_one} ')
