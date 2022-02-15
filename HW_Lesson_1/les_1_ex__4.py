@@ -10,7 +10,5 @@ while chislo > 0:
         chislo_max = chislo % 10
     chislo = chislo // 10
 
-
 print('Максимально число')
 print(chislo_max)
-
