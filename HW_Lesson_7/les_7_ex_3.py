@@ -50,7 +50,8 @@ class Cage:
         row = ''
         for i in range(int(self.quantity / num_row)):
             row = row + f'{"*" * num_row}\\{num_row}'
-        row = row + f'{"*" * (self.quantity % num_row)} \\{num_row}'
+        row = row + f'{"*" * (self.quantity % num_row)} '
+
         return row
 
 
@@ -62,5 +63,5 @@ print(f' Сложение {cage_1 + cage_2}')
 print(f' Вычитание {cage_1 - cage_2}')
 print(f' Умножение {cage_1 * cage_2}')
 print(f' Деление {cage_1 / cage_2}')
-print(cage_1.make_order(10))
-print(cage_2.make_order(20))
+print(cage_1.make_order(5))
+print(cage_2.make_order(3))
