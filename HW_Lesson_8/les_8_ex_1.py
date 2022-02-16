@@ -26,7 +26,7 @@ class Data:
         return f' Дата {Data.split_date(self.dd_mm_yyyy)}'
 
     @staticmethod
-    def correct(day, month, year):
+    def correct(day, month, year): #со   @staticmethod дает использавть day, без него day привязан к функциям даты
 
         if 1 < day <= 28:
             if 1 <= month <= 12:
@@ -44,4 +44,3 @@ some_date = Data('1  _ 1 _ 2000')
 print(some_date)
 print(Data.correct(22, 12, 2020))
 print(some_date.split_date('23 _ 10 _ 2017'))
-
