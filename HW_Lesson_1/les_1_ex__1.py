@@ -14,4 +14,3 @@ before_old = int(input('лет назад:  '))
 young_old = int(your_old) - before_old
 result_young = f'Тебе было {young_old}'
 print(result_young)
-
